@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">SANGRAM CHAVAN PATIL</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">SANGRAM CHAVAN PATIL</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/logo.png.png" alt="John Doe profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1" style="font-size: 30px;">Hello, I'm</p>
+        <h1 class="title">SANGRAM CHAVAN PATIL</h1>
+        <p class="section__text__p2">Cybersecurity Enthusiast</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('##')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="window.open('https://www.linkedin.com/in/sangram-chavan-patil-2b117024b')"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="window.open('https://github.com/sangram96k', '_blank')"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1" style="font-size: 30px;">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/profile-pic-2.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>1 months+ <br /> Internship in Cybersecurity </p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Studing 3rd Year Computer Science And Engineering</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p style="font-size: 20px;">
+              I am a third year student at KLE College of Engineering And Technology Chikodi, pursuing my Bachelor's degree in Computer Science and Engineering with a passion for cybersecurity.With a passion for exploring the vast landscape of cybersecurity, I'm dedicated to honing my skills in securing digital environments.I recently completed my second internship in November 2023, where I had the opportunity to apply my knowledge in a real-world setting. This experience has not only reinforced my understanding of cybersecurity concepts but has also equipped me with practical insights into the industry
+              
+
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1" style="font-size: 30px;">Explore My</p>
+      <h1 class="title">Cybersecurity Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Cybersecurity Skills</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Basic of computer networks</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Information Gathering</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </article>
+
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>web application pentesting </h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </article>
+          <article>
+            <img
+              src="./assets/checkmark.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>Dark web</h3>
+              <p>Begnnier</p>
+            </div>
+          </article>
+        </article>
+        <article>
+          <img
+            src="./assets/checkmark.png"
+            alt="Experience icon"
+            class="icon"
+          />
+          <div>
+            <h3>Network Scanning And Enumeration</h3>
+            <p>Intermediate</p>
+          </div>
+        </article>
+      </article>
+    </article>
+    <article>
+      <img
+        src="./assets/checkmark.png"
+        alt="Experience icon"
+        class="icon"
+      />
+      <div>
+        <h3>Google Dorking</h3>
+        <p>Intermediate</p>
+      </div>
+    </article>
+      
+    
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Cybersecurity Projects</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Network_scanner</h3>
+                  <p>Completed</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Web App Vulnerabilities scanner</h3>
+                  <p>Completed</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Subdomain Finder</h3>
+                  <p>Completed</p>
+                </div>
+              </article>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1" style="font-size: 30px;">Browse My Recent</p>
+      <h1 class="title">Cybersecurity Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/network_scanner.jpg"
+                alt="Project 4"
+                class="project-img"
+              style="margin-top: 60px; "/>
+            </div>
+            <h2 class="experience-sub-title project-title">Network_scanner</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/sangram96k/Network_scanner', '_blank')"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='./assets/network scanner.mp4'"
+              >
+                Demo clip
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/b37gwlj5.png"
+                alt="Project 4"
+                class="project-img"
+                style="margin-top: 60px; "
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Web Scraper</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/sangram96k/web_scrapper', '_blank')"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='./assets/network scanner'"
+              >
+                Demo clip
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/subdomain.png"
+                alt="Project 4"
+                class="project-img"
+              style="margin-top: 60px;" />
+            </div>
+            <h2 class="experience-sub-title project-title">Subdomain Finder</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/sangram96k/sub', '_blank')"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='./assets/subdomain.mp4'"
+              >
+                Demo clip
+              </button>
+            </div>
+          </div>
+          <!-- Add more cybersecurity projects as needed -->
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1" style="font-size: 30px;">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">chavanpatilsangram1@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/sangram-chavan-patil-2b117024b">LinkedIn</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/insta.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.instagram.com/2003_sangram/">Instagram</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/telephone.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p>MOBILE:9019409736</p>
+        </div>
+        </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 SANGRAM CHAVAN PATIL. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
