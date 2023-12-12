@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NETWORK-SCANNER</title>
+    <link rel="stylesheet" href="css/post.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Boxicon link from boxicon.com -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <article>
+
+        <header>
+            <div class="nav container">
+                <!-- logo -->
+                <a href="#" class="logo">CYBER<span>ALERT</span></a>
+                
+                <!-- Contact Icons -->
+                <div class="contact-icons">
+                    <a href="https://github.com/Sangram96k" target="_blank" class="icon"><i class='bx bxl-github'></i></a>
+                    <a href="https://instagram.com/2003_sangram" target="_blank" class="icon"><i class='bx bxl-instagram'></i></a>
+                    <a href="www.linkedin.com/in/sangram-chavan-patil-2b117024b" target="_blank" class="icon"><i class='bx bxl-linkedin'></i></a>
+                </div>
+            </div>
+        </header>
+        
+        <section class="home" id="home">
+            <div class="home-text container">
+                <h2 class="home-title">The Cyber<span id="title">Alert</span> Blogs</h2>
+                <span class="home-subtitle">Your source of cybersecurity Knowledge</span>
+            </div>
+        </section>
+        
+            <div class="author">
+                <img src="img/author-2.jpg" alt="Author Image"> 
+                <p>Written by: SANGRAM CHAVAN PATIL</p>
+            </div>
+            <br>
+            <br>
+            <h1 id="headline">Network Scanners Decoded: A Journey into Cybersecurity Vigilance:</h1>
+            <br>
+            <br>
+            <div class="vertical-line">
+                <div class="content">
+                    <p id="paragraph">
+                        <strong>Introduction:</strong>
+                        <br>
+                        <br>
+                        In the ever-evolving landscape of cyberspace, where the digital frontier expands with each passing day, the need for robust cybersecurity measures has become more crucial than ever. Among the arsenal of tools employed by cybersecurity professionals, one stands out as a silent sentinel guarding against potential threats – the Network Scanner. This article embarks on a journey into the realm of Network Scanners, deciphering their significance and unraveling the layers of cybersecurity vigilance they provide.
+                    </p>  
+                    <br>
+                    <br>
+                    
+                    <p id="paragraph">
+                        <strong>Understanding the Essence of Network Scanners:</strong>
+                        <br>
+                        <br>
+                        
+                        Network Scanners serve as the vigilant eyes and ears of cybersecurity professionals, providing insights into the intricate web of devices that compose a network. In essence, these tools are designed to probe, analyze, and map the structure of a computer network, empowering administrators with a comprehensive understanding of their digital terrain.
+                        
+                    </p>
+                    <br>
+                    <br>
+                    <p id="paragraph">
+                        <strong>The Core Functions of Network Scanners:
+        </strong>
+        <br>
+        <br>
+        <strong> 1 > Host Discovery:</strong><br>
+        <br>
+        
+        Network Scanners initiate their mission by identifying active hosts on a network. Through techniques like ping sweeps and ARP requests, they unveil the devices currently connected, laying the groundwork for a thorough examination.
+        <br>
+        <br>
+        <strong> 2 > Port Scanning:</strong>
+        <br>
+        <br>
+        Understanding the accessibility points is vital in fortifying network security. Network Scanners meticulously scan open ports, revealing potential gateways for both authorized and unauthorized communication. This information is fundamental for securing the network perimeter.
+        <br>
+        <br>
+        <strong>3 > Service Detection:</strong>
+        <br>
+        <br>
+        Going beyond port scanning, Network Scanners determine the specific services running on these ports. This insight aids administrators in comprehending the functionalities of each device, crucial for managing and securing the network effectively.
+        <br>
+        <br>
+        <strong> 4 > Vulnerability Assessment:</strong>
+        <br>
+        <br>
+        Advanced Network Scanners often integrate vulnerability assessment capabilities. By cross-referencing identified services with known vulnerabilities, these tools assist in prioritizing security measures and fortifying the network against potential exploits.
+        <br>
+        <br>
+        
+    </p>
+    <br>
+    <br>
+    <p id="paragraph">Network Scanners serve as the vigilant eyes and ears of cybersecurity professionals, providing insights into the intricate web of devices that compose a network. In essence, these tools are designed to probe, analyze, and map the structure of a computer network, empowering administrators with a comprehensive understanding of their digital terrain.</p>
+    <br>
+    <br>
+    <p id="paragraph">
+        <strong>Decoding the Working Mechanism:</strong>
+        <br>
+        <br>
+        
+        Network Scanners operate by sending carefully crafted packets to target hosts and analyzing the responses. The process involves host discovery, port scanning, service identification, and, in some cases, a thorough vulnerability assessment. The seamless orchestration of these steps allows administrators to stay one step ahead in the ongoing battle against cyber threats.
+        
+    </p>
+    <br>
+    <br>
+    <!-- code snippet box -->
+    <pre>
+        <code>
+            import nmap
+            
+            # Basic user interface header
+            print(r"""______            _     _  ______                 _           _ 
+            
+            ░██████╗░█████╗░███╗░░██╗░██████╗░██████╗░░█████╗░███╗░░░███╗
+            ██╔════╝██╔══██╗████╗░██║██╔════╝░██╔══██╗██╔══██╗████╗░████║
+                ╚█████╗░███████║██╔██╗██║██║░░██╗░██████╔╝███████║██╔████╔██║
+                ░╚═══██╗██╔══██║██║╚████║██║░░╚██╗██╔══██╗██╔══██║██║╚██╔╝██║
+                ██████╔╝██║░░██║██║░╚███║╚██████╔╝██║░░██║██║░░██║██║░╚═╝░██║
+                ╚═════╝░╚═╝░░╚═╝╚═╝░░╚══╝░╚═════╝░╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░░░░╚═╝""")
+                print("\n****************************************************************")
+                print("\n* Copyright of sangram, 2023                              *")
+                print("\n* https://www.instagram.com/2003_sangram/                 *")
+                print("\n****************************************************************")
+                
+                def scan_network(target_ip):
+                nm = nmap.PortScanner()
+                
+                # Perform a ping scan to discover live hosts in the network
+                nm.scan(hosts=target_ip, arguments='-sn')
+                
+                # Iterate through each discovered host
+                for host in nm.all_hosts():
+                print(f"\nHost: {host}")
+                
+                # Perform a detailed scan on each live host, including OS detection and service/version detection
+                nm.scan(hosts=host, arguments='-sS -O -sV ')
+                
+                # Extract information about open ports
+                open_ports = [port for port in nm[host]['tcp'] if nm[host]['tcp'][port]['state'] == 'open']
+                print(f"Open Ports: {open_ports}")
+                
+                # Extract information about services on open ports, including version
+                for port in open_ports:
+                service = nm[host]['tcp'][port]['name']
+                version = nm[host]['tcp'][port].get('product', 'N/A')
+                print(f"Port {port}: {service} ({version})")
+                
+                # Extract MAC address (if available)
+                mac_address = nm[host]['addresses'].get('mac', 'N/A')
+                print(f"MAC Address: {mac_address}")
+                
+                # Extract hostname (if available)
+                hostname = nm[host].hostname()
+                print(f"Hostname: {hostname}")
+                
+                # Extract OS information
+                os_info = nm[host]['osmatch'][0]['name'] if 'osmatch' in nm[host] else 'N/A'
+                print(f"OS: {os_info}")
+                
+                if __name__ == "__main__":
+                # Get the user input for the target IP range
+                target_ip = input("Enter the target IP address or range (e.g., 192.168.1.1 or 192.168.1.1/24): ")
+                
+                # Perform the network scan
+                scan_network(target_ip)
+                
+            </code>
+                    </pre>
+                    
+                    <button class="copy-code-btn" onclick="copyCode()">Copy Code</button><br><br>
+                    
+                    <p id="paragraph">
+                        
+                        <strong>Conclusion:</strong>
+                        <br>
+                        <br>
+                        Network Scanners are the unsung heroes of cybersecurity, providing a vigilant watch over the digital realm. As technology advances and cyber threats become more sophisticated, the role of Network Scanners becomes increasingly pivotal. In decoding the capabilities and workings of these tools, organizations can bolster their defenses, ensuring a proactive and vigilant approach to cybersecurity.
+                        
+                        Embark on the journey of cybersecurity vigilance with Network Scanners, for in their decoded language lies the key to a resilient and secure digital future.
+                        
+                    </p>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    
+                </div>
+                
+                
+            </div>
+    <script>
+        function copyCode() {
+            var codeSnippet = document.querySelector('pre code');
+            var textarea = document.createElement('textarea');
+            textarea.value = codeSnippet.innerText;
+            document.body.appendChild(textarea);
+            textarea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textarea);
+            alert('Code copied to clipboard!');
+            
+             // Add event listener to handle scrolling
+             window.addEventListener('scroll', function() {
+                 var footer = document.querySelector('footer');
+                 // Add or remove the 'footer-hidden' class based on scroll position
+                 footer.classList.toggle('footer-hidden', window.scrollY > 0);
+                });
+            }
+            </script>
+    <footer>
+        
+        <p >&copy; 2023 Your Company Name. All rights reserved.</p>
+    </footer>
+</article>
+</body>
+</html>
